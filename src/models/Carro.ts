@@ -1,4 +1,4 @@
-import { Veiculo } from "./Veiculo.js";
+import { Veiculo } from "./Veiculo";
 
 export class Carro extends Veiculo {
     public calcularValor(horas: number): number {

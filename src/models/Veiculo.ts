@@ -1,5 +1,5 @@
-import { Cliente } from "./Cliente.js";
-import { IPrecificavel } from "./IPrecificavel.js";
+import { Cliente } from "./Cliente";
+import { IPrecificavel } from "./IPrecificavel";
 
 export abstract class Veiculo implements IPrecificavel {
     constructor(

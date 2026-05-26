@@ -1,6 +1,6 @@
-import { Menu } from "./views/Menu.js";
-import { PatioController } from "./controllers/PatioController.js";
-import { ClienteController } from "./controllers/ClienteController.js";
+import { Menu } from "./views/Menu";
+import { PatioController } from "./controllers/PatioController";
+import { ClienteController } from "./controllers/ClienteController";
 
 const patioController = new PatioController();
 const clienteController = new ClienteController();
